@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite  djdn">
+  <test name="Test Actitime">
+    <classes>
+      <class name="com.qa.TestCases.LoginTest"/>
+    <!--   <class name="com.qa.TestCases.HomeTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

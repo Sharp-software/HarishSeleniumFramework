@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite  djdn]">
+  <test thread-count="5" name="Test Actitime(failed)">
+    <classes>
+      <class name="com.qa.TestCases.LoginTest">
+        <methods>
+          <include name="startExtendReport"/>
+          <include name="setup"/>
+          <include name="flushReport"/>
+          <include name="verifyErrorMesg"/>
+          <include name="verifyLoginTest" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.LoginTest -->
+    </classes>
+  </test> <!-- Test Actitime(failed) -->
+</suite> <!-- Failed suite [Suite  djdn] -->
